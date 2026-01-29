@@ -73,6 +73,7 @@ public class InsertionDemo {
         demo.insertBeginning(1);
         demo.insertEnd(3);
         demo.insertAfterPosition(1, 2);
+        demo.insertBeginning(10);
         demo.display();  // Output: List: 1 -> 2 -> 3 -> NULL
     }
 }
